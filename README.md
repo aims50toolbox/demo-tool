@@ -17,5 +17,6 @@ docker compose up
 
 Running the service, you can test it with the provided `test/example.http` file and the Visual Code REST client extension, or using 
 ```
-curl --data-binary @~/aitools/demo/assets/aitoolbox-impl.png -H "Mime-Type: image/png" -H "Content-Type: image/png" http://localhost:12345 > response.png
+cd ~/aitools
+curl --data-binary @demo/assets/aitoolbox-impl.png -H "Mime-Type: image/png" -H "Content-Type: image/png" http://localhost:12345 > response.png
 ```
