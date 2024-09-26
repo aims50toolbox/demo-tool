@@ -3,7 +3,7 @@
 The tool is a simple demonstration for the AIMS AI Toolbox. The tool itself executes a simple *Canny* edge detection on a provided image.
 
 ## Usage
-The tool can be used as a conventional AI tool (see the [AI Toolbox](https://github.com/hollosigergely/aitoolbox)). You can experiment with the `query.ipynb` to check the tool capabilities. Also, you can deploy the tool as a REST service. Suppose, the tool is checked out into `~/aitools/demo`, then you can deploy it into `/tmp/demo_deploy` 
+The tool can be used as a conventional AI tool (see the [AI Toolbox](https://github.com/aims50toolbox/aitoolbox)). You can experiment with the `query.ipynb` to check the tool capabilities. Also, you can deploy the tool as a REST service. Suppose, the tool is checked out into `~/aitools/demo`, then you can deploy it into `/tmp/demo_deploy` 
 ```
 python3 -m aitoolbox deploy ~/aitools/demo -o /tmp/demo_deploy
 ```
